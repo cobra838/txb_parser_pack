@@ -3,7 +3,7 @@ import sys
 import os
 import argparse
 
-def unpack_txb(input_txb, output_txt, force_borders=False):
+def unpack_txb(input_txb, output_txt, force_borders=True):
     with open(input_txb, 'rb') as infile:
         # Читаем заголовок
         magic = infile.read(4)
@@ -60,7 +60,7 @@ def unpack_txb(input_txb, output_txt, force_borders=False):
                 markers = []
                 
                 # Определяем, нужно ли парсить границы
-                should_parse = border_count >= 2 or (border_count == 1 and force_borders)
+                should_parse = border_count >= 2 or (border_count == 1 and not force_borders) # убрать not 
                 
                 if should_parse:
                     # Читаем все границы
