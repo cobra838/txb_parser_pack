@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .color-cell {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Index</th>
+            <th>Color</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 255, 255)"></div></td>
+            <td>Белый #ffffff (255, 255, 255)</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 0, 0)"></div></td>
+            <td>Черный #000000 (0, 0, 0)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><div class="color-cell" style="background-color: rgb(7, 7, 0)"></div></td>
+            <td>Темно-оливковый #070700 (7, 7, 0)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 7, 0)"></div></td>
+            <td>Темно-зеленый #000700 (0, 7, 0)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 7, 33)"></div></td>
+            <td>Темно-синий #000721 (0, 7, 33)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 0, 55)"></div></td>
+            <td>Темно-синий #000037 (0, 0, 55)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td><div class="color-cell" style="background-color: rgb(7, 7, 82)"></div></td>
+            <td>Темно-синий #070752 (7, 7, 82)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td><div class="color-cell" style="background-color: rgb(7, 7, 7)"></div></td>
+            <td>Почти черный #070707 (7, 7, 7)</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 0, 0)"></div></td>
+            <td>Красный #ff0000 (255, 0, 0)</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 33, 0)"></div></td>
+            <td>Оранжево-красный #ff2100 (255, 33, 0)</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td><div class="color-cell" style="background-color: rgb(55, 55, 0)"></div></td>
+            <td>Темно-оливковый #373700 (55, 55, 0)</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 55, 0)"></div></td>
+            <td>Темно-зеленый #003700 (0, 55, 0)</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 55, 55)"></div></td>
+            <td>Темно-бирюзовый #003737 (0, 55, 55)</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 0, 255)"></div></td>
+            <td>Синий #0000ff (0, 0, 255)</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td><div class="color-cell" style="background-color: rgb(33, 33, 82)"></div></td>
+            <td>Темно-синий #212152 (33, 33, 82)</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td><div class="color-cell" style="background-color: rgb(55, 55, 55)"></div></td>
+            <td>Темно-серый #373737 (55, 55, 55)</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 60, 42)"></div></td>
+            <td>Светло-красный #ff3c2a (255, 60, 42)</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 82, 0)"></div></td>
+            <td>Оранжевый #ff5200 (255, 82, 0)</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td><div class="color-cell" style="background-color: rgb(82, 156, 0)"></div></td>
+            <td>Зеленый #529c00 (82, 156, 0)</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td><div class="color-cell" style="background-color: rgb(225, 41, 100)"></div></td>
+            <td>Розовый #e12964 (225, 41, 100)</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td><div class="color-cell" style="background-color: rgb(7, 156, 156)"></div></td>
+            <td>Бирюзовый #079c9c (7, 156, 156)</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td><div class="color-cell" style="background-color: rgb(7, 33, 255)"></div></td>
+            <td>Ярко-синий #0721ff (7, 33, 255)</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td><div class="color-cell" style="background-color: rgb(55, 0, 55)"></div></td>
+            <td>Темно-фиолетовый #370037 (55, 0, 55)</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td><div class="color-cell" style="background-color: rgb(79, 79, 79)"></div></td>
+            <td>Серый #4f4f4f (79, 79, 79)</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 0, 255)"></div></td>
+            <td>Пурпурный #ff00ff (255, 0, 255)</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 156, 0)"></div></td>
+            <td>Оранжевый #ff9c00 (255, 156, 0)</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 255, 0)"></div></td>
+            <td>Желтый #ffff00 (255, 255, 0)</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 255, 0)"></div></td>
+            <td>Зеленый #00ff00 (0, 255, 0)</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td><div class="color-cell" style="background-color: rgb(32, 108, 171)"></div></td>
+            <td>Голубой #206cab (32, 108, 171)</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td><div class="color-cell" style="background-color: rgb(0, 156, 255)"></div></td>
+            <td>Светло-голубой #009cff (0, 156, 255)</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td><div class="color-cell" style="background-color: rgb(82, 7, 33)"></div></td>
+            <td>Темно-красный #520721 (82, 7, 33)</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td><div class="color-cell" style="background-color: rgb(136, 136, 136)"></div></td>
+            <td>Серый #888888 (136, 136, 136)</td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 82, 156)"></div></td>
+            <td>Розовый #ff529c (255, 82, 156)</td>
+        </tr>
+        <tr>
+            <td>33</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 156, 82)"></div></td>
+            <td>Персиковый #ff9c52 (255, 156, 82)</td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 255, 82)"></div></td>
+            <td>Светло-желтый #ffff52 (255, 255, 82)</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td><div class="color-cell" style="background-color: rgb(156, 255, 156)"></div></td>
+            <td>Светло-зеленый #9cff9c (156, 255, 156)</td>
+        </tr>
+        <tr>
+            <td>36</td>
+            <td><div class="color-cell" style="background-color: rgb(156, 255, 255)"></div></td>
+            <td>Светло-голубой #9cffff (156, 255, 255)</td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td><div class="color-cell" style="background-color: rgb(82, 156, 255)"></div></td>
+            <td>Голубой #529cff (82, 156, 255)</td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 255, 255)"></div></td>
+            <td>Белый #ffffff (255, 255, 255)</td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td><div class="color-cell" style="background-color: rgb(255, 255, 255)"></div></td>
+            <td>Белый #ffffff (255, 255, 255)</td>
+        </tr>
+    </table>
+</body>
+</html>
