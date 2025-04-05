@@ -625,7 +625,6 @@ common_areaname_02
 common_areaname_03
 common_areaname_04
 common_areaname_05
-cCity at the Edge of the World/c=19;1c
 common_areaname_06
 common_areaname_07
 common_areaname_08
@@ -3784,6 +3783,7 @@ ep24_missionlog_05
 ep24_missionlog_06
 ep24_missionlog_07
 ep24_missionlog_08
+eps1_missionlog_01
 info_cm21_09_missionlog_68
 sm01_missionlog_00_locked
 sm01_missionlog_01
