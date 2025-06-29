@@ -59,18 +59,6 @@ def unpack_txb(input_txb, output_txt, force_borders=True):
                 hash_bytes = struct.pack('I', text_hash)
                 hex_str = ''.join(f'{b:02x}' for b in hash_bytes)
                 text_name = f"unknown_{hex_str}"
-                # Only for COMICDEMO check letters at the end if we got unknown
-                if "COMICDEMO_EPISODE" in os.path.basename(input_txb).upper():
-                    for base_name in name_dictionary.values():
-                        if base_name[-2:].isdigit():
-                            for letter in 'abc':
-                                test_name = f"{base_name}{letter}"
-                                test_hash = fnv1a_32_hash(test_name)
-                                if test_hash == text_hash:
-                                    text_name = test_name
-                                    break
-                        if text_name != f"unknown_{hex_str}":
-                            break
 
             entries_metadata.append({
                 'index': i + 1,
