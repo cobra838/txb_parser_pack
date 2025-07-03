@@ -820,8 +820,11 @@ common_train_question_02
 common_train_question_03
 common_train_question_04
 common_tutorial_01
+common_tutorial_01_title
 common_tutorial_02
+common_tutorial_02_title
 common_tutorial_03
+common_tutorial_03_title
 common_yes
 e3a_camera_select_01
 e3a_camera_select_02
@@ -864,7 +867,9 @@ e3a_object_02
 e3a_object_03
 e3a_object_04
 e3a_tutorial_01
+e3a_tutorial_01_title
 e3a_tutorial_03
+e3a_tutorial_03_title
 e3b_caption_hint_01
 e3b_caption_hint_02
 e3b_caption_hint_03
@@ -888,9 +893,13 @@ e3b_caption_outrange
 e3b_object_01
 e3b_object_02
 e3b_tutorial_01
+e3b_tutorial_01_title
 e3b_tutorial_04
+e3b_tutorial_04_title
 e3b_tutorial_05
+e3b_tutorial_05_title
 e3b_tutorial_06
+e3b_tutorial_06_title
 ep00p_01
 ep00p_02
 ep01a_caption_hint_01
@@ -929,7 +938,9 @@ ep01c_caption_msg_14
 ep01c_caption_shift
 ep01c_object_01
 ep01c_tutorial_01
+ep01c_tutorial_01_title
 ep01c_tutorial_02
+ep01c_tutorial_02_title
 ep01p_01
 ep01p_02
 ep01p_03
@@ -954,10 +965,15 @@ ep03a_object_02
 ep03a_object_03
 ep03a_object_04
 ep03a_tutorial_01
+ep03a_tutorial_01_title
 ep03a_tutorial_02
+ep03a_tutorial_02_title
 ep03a_tutorial_03
+ep03a_tutorial_03_title
 ep03a_tutorial_04
+ep03a_tutorial_04_title
 ep03a_tutorial_05
+ep03a_tutorial_05_title
 ep03b_caption_hint_01
 ep03b_caption_hint_02
 ep03b_caption_hint_03
@@ -970,8 +986,11 @@ ep03b_caption_outrange
 ep03b_caption_warning
 ep03b_object_01
 ep03b_tutorial_01
+ep03b_tutorial_01_title
 ep03b_tutorial_02
+ep03b_tutorial_02_title
 ep03b_tutorial_03
+ep03b_tutorial_03_title
 ep05a_caption_hint_01
 ep05a_caption_hint_02
 ep05a_caption_msg_02
@@ -999,8 +1018,11 @@ ep05a_caption_msg_28
 ep05a_object_01
 ep05a_object_02
 ep05a_tutorial_01
+ep05a_tutorial_01_title
 ep05a_tutorial_02
+ep05a_tutorial_02_title
 ep05a_tutorial_03
+ep05a_tutorial_03_title
 ep05h_caption_msg_01
 ep06a_caption_msg_01
 ep06a_caption_msg_02
@@ -1014,8 +1036,11 @@ ep06a_caption_msg_10
 ep06a_caption_msg_11
 ep06a_object_01
 ep06a_tutorial_01
+ep06a_tutorial_01_title
 ep06a_tutorial_02
+ep06a_tutorial_02_title
 ep06a_tutorial_03
+ep06a_tutorial_03_title
 ep06b_caption_msg_01
 ep06b_caption_msg_02
 ep06b_caption_msg_03
@@ -1036,6 +1061,7 @@ ep06d_caption_msg_05
 ep06d_object_01
 ep06d_object_02
 ep06d_tutorial_01
+ep06d_tutorial_01_title
 ep06h_object_01
 ep07a_caption_msg_02
 ep07a_caption_msg_03
@@ -1090,7 +1116,9 @@ ep08a_text14
 ep08a_text15
 ep08a_text16
 ep08a_tutorial_01
+ep08a_tutorial_01_title
 ep08a_tutorial_02
+ep08a_tutorial_02_title
 ep08h_text01
 ep09a_answer1_01
 ep09a_answer1_02
@@ -1151,10 +1179,12 @@ ep09b_caption_msg_12
 ep09b_object_01
 ep09b_object_02
 ep09b_tutorial_01
+ep09b_tutorial_01_title
 ep09h_caption_msg_01
 ep09h_caption_msg_02
 ep09h_caption_msg_03
 ep09h_tutorial_01
+ep09h_tutorial_01_title
 ep10a_object_01
 ep10a_text01
 ep10a_text02
@@ -1169,7 +1199,9 @@ ep10a_text12
 ep10a_text13
 ep10a_text14
 ep10a_tutorial_01
+ep10a_tutorial_01_title
 ep10a_tutorial_02
+ep10a_tutorial_02_title
 ep10h_text01
 ep10p_01
 ep10p_02
@@ -1227,6 +1259,7 @@ ep11c_caption_msg_05
 ep11c_object_01
 ep11h_caption_msg_01
 ep11h_tutorial_01
+ep11h_tutorial_01_title
 ep12a_caption_msg_01
 ep12a_caption_msg_02
 ep12a_caption_msg_03
@@ -1242,6 +1275,7 @@ ep12a_caption_msg_14
 ep12a_object_01
 ep12a_text01
 ep12a_tutorial_01
+ep12a_tutorial_01_title
 ep12h_caption_msg_01
 ep13a_caption_msg_01
 ep13a_caption_msg_02
@@ -1272,6 +1306,7 @@ ep14a_caption_msg_10
 ep14a_caption_msg_11
 ep14a_object_01
 ep14a_tutorial_01
+ep14a_tutorial_01_title
 ep14b_caption_msg_01
 ep14b_caption_msg_02
 ep14b_caption_msg_03
@@ -1290,6 +1325,7 @@ ep14b_caption_msg_15
 ep14b_object_01
 ep14h_caption_msg_01
 ep14h_tutorial_01
+ep14h_tutorial_01_title
 ep14p_01
 ep14p_02
 ep14p_03
@@ -1412,7 +1448,9 @@ ep20b_object_03
 ep20b_object_04
 ep20b_object_05
 ep20b_tutorial_01
+ep20b_tutorial_01_title
 ep20b_tutorial_02
+ep20b_tutorial_02_title
 ep20p_01
 ep20p_02
 ep20p_03
@@ -1459,6 +1497,7 @@ ep21c_caption_msg_26
 ep21c_object_01
 ep21c_object_02
 ep21c_tutorial_01
+ep21c_tutorial_01_title
 ep21d_caption_msg_01
 ep21d_caption_msg_02
 ep21d_caption_msg_04
@@ -1526,6 +1565,7 @@ ep24b_caption_msg_03
 ep24b_caption_msg_04
 ep24b_caption_msg_05
 ep24b_tutorial_01
+ep24b_tutorial_01_title
 ep24c_caption_msg_01
 ep24c_caption_msg_02
 ep24c_caption_msg_03
@@ -1558,8 +1598,11 @@ ep24f_object_01
 ep99_caption_msg_01
 ep99_caption_msg_02
 ep99_tutorial_01
+ep99_tutorial_01_title
 ep99_tutorial_02
+ep99_tutorial_02_title
 ep99_tutorial_03
+ep99_tutorial_03_title
 eps1a_caption_hint_01
 eps1a_caption_msg_02
 eps1a_caption_msg_03
@@ -1568,14 +1611,20 @@ eps1a_object_01
 eps1a_object_02
 eps1a_object_03
 eps1a_tutorial_04
+eps1a_tutorial_04_title
 eps1a_tutorial_05
+eps1a_tutorial_05_title
 eps1a_tutorial_06
+eps1a_tutorial_06_title
 eps2a_tutorial_01
 eps2a_tutorial_02
 eps2a_tutorial_02_2
+eps2a_tutorial_02_2_title
+eps2a_tutorial_02_title
 opening_tap_message
 sm00_mission_select
 sm00_tutorial_10
+sm00_tutorial_10_title
 sm01a_answer1_01
 sm01a_answer1_02
 sm01a_answer1_03
@@ -1718,6 +1767,7 @@ sm11b_caption_msg_040
 sm11b_caption_msg_050
 sm11b_caption_msg_051
 sm11b_tutorial_10
+sm11b_tutorial_10_title
 sm11c_caption_msg_010
 sm11c_caption_msg_020
 sm11c_caption_msg_030
@@ -1726,6 +1776,7 @@ sm11c_caption_msg_070
 sm11c_caption_msg_080
 sm11c_caption_msg_090
 sm11c_tutorial_10
+sm11c_tutorial_10_title
 sm11d_caption_msg_005
 sm11d_caption_msg_010
 sm11d_caption_msg_020
@@ -1852,6 +1903,7 @@ sm21a_object_05
 sm21a_object_10
 sm21a_object_15
 sm21a_tutorial_01
+sm21a_tutorial_01_title
 sm21b_caption_msg_020
 sm21b_caption_msg_025
 sm21b_caption_msg_030
@@ -1908,6 +1960,7 @@ sm22a_caption_msg_185
 sm22a_object_05
 sm22a_object_10
 sm22a_tutorial_01
+sm22a_tutorial_01_title
 sm22b_caption_msg_003
 sm22b_caption_msg_005
 sm22b_caption_msg_006
@@ -1941,7 +1994,9 @@ sm22b_object_05
 sm22b_object_06
 sm22b_object_08
 sm22b_tutorial_01
+sm22b_tutorial_01_title
 sm22b_tutorial_02
+sm22b_tutorial_02_title
 KAIWADEMO_EP_EP01_RU_new.txt
 ep01_04k_01
 ep01_04k_02
@@ -5228,6 +5283,7 @@ info_button_prev
 info_button_resultnext
 info_button_retry
 info_button_startexit
+info_icon_custom
 info_icon_help
 info_icon_navi
 info_title
@@ -5644,6 +5700,7 @@ select_Mission_sm11
 select_Mission_sm12
 select_Mission_sm21
 select_Mission_sm22
+select_custom
 select_log
 select_map
 skip_resume_circle
