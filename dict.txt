@@ -1,3 +1,13 @@
+prompt_triangle
+prompt_square
+prompt_cross
+prompt_circle
+
+???colission - title_neoz0w - fb54eb5f
+???colission - title_hquxnx - 16f8c301
+???colission - aaalepkuy:21 - 713f6d03
+
+
 COMICDEMO_EPISODE10_RU_new.txt
 ep10_01c_01
 ep10_01c_02
@@ -4600,7 +4610,6 @@ ep22_title
 ep23_title
 ep24_title
 eps1_title
-gallery_5q2tad
 gallery_character
 gallery_character_civilians
 gallery_character_civilians_001
@@ -4654,6 +4663,7 @@ gallery_character_lostchildren_010
 gallery_character_lostchildren_011
 gallery_character_lostchildren_012
 gallery_character_lostchildren_013
+gallery_character_lostchildren_014
 gallery_character_lostchildren_015
 gallery_character_officers
 gallery_character_officers_001
@@ -4673,6 +4683,7 @@ gallery_character_officers_014
 gallery_character_officers_015
 gallery_character_officers_016
 gallery_character_officers_017
+gallery_character_people
 gallery_character_people1
 gallery_character_people1_001
 gallery_character_people1_002
@@ -5001,6 +5012,7 @@ gallery_world_boutoume_034
 gallery_world_boutoume_035
 gallery_world_boutoume_036
 gallery_world_boutoume_037
+gallery_world_building
 gallery_world_building1
 gallery_world_building1_001
 gallery_world_building1_002
@@ -5122,6 +5134,15 @@ gallery_world_other_027
 gallery_world_other_028
 gallery_world_other_029
 gallery_world_pillar
+gallery_world_pillar_001
+gallery_world_pillar_002
+gallery_world_pillar_003
+gallery_world_pillar_004
+gallery_world_pillar_005
+gallery_world_pillar_006
+gallery_world_pillar_007
+gallery_world_pillar_008
+gallery_world_pillar_009
 gallery_world_pleajeune
 gallery_world_pleajeune_001
 gallery_world_pleajeune_002
@@ -5782,6 +5803,7 @@ title_neoz0w
 title_playmes
 title_sonycomp
 title_sonycomp_trial
+titlebtn_gallery
 titlebtn_load
 titlebtn_new
 tutorial_menu_header
