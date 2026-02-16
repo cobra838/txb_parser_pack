@@ -3,8 +3,8 @@ prompt_square
 prompt_cross
 prompt_circle
 
-???colission - title_neoz0w - fb54eb5f
-???colission - title_hquxnx - 16f8c301
+???colission - title_neoz0w, title_a0w-mfu - fb54eb5f   --  title_ver_no (DLC)
+???colission - title_hquxnx, title_04y384 - 16f8c301   --  (GRAVITY RUSH™)
 ???colission - aaalepkuy:21 - 713f6d03
 
 
@@ -5799,10 +5799,10 @@ title_lv17
 title_lv18
 title_lv19
 title_lv20
-title_neoz0w
 title_playmes
 title_sonycomp
 title_sonycomp_trial
+title_ver_no
 titlebtn_gallery
 titlebtn_load
 titlebtn_new
